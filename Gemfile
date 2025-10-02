@@ -17,6 +17,12 @@ gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
+# Use Seed to fill databases in less than a second.
+gem "seed"
+
+# Use Faker to fill your DBs with random datasets [https://github.com/faker-ruby/]
+gem "faker"
+
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"
 
