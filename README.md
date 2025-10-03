@@ -22,38 +22,6 @@ City model (doctors, patients, and appointments belong to a city).
 
 Specialty model (many-to-many with doctors).
 
-2. Dog Airbnb – Dog Walking Platform
-
-A matching service between dogs and dogsitters.
-
-Models: Dog, Dogsitter, Stroll.
-
-Relations:
-
-Many dogs ↔ many dogsitters through strolls.
-
-Extras:
-
-City model (each dog and dogsitter belongs to one city).
-
-3. The Gossip Project – Social Gossip App
-
-A social network to share gossips and comments.
-
-Models: User, City, Gossip, Tag, PrivateMessage, Comment, Like.
-
-Relations:
-
-User ↔ many gossips, comments, likes, private messages.
-
-Gossip ↔ many tags (N-N), many comments, many likes.
-
-Private messages with sender and multiple recipients.
-
-Extras:
-
-Nested comments (polymorphism).
-
 Usage
 
 Clone the repo(s).
